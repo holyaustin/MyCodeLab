@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="fixed h-8 bottom-0 px-2 py-1 flex items-center justify-center w-full text-xs text-gray-500 ">
+    <div className="h-12 bottom-0 flex items-center justify-center w-full text-2xl text-white bg-blue-700 ">
       <span>
         Built with{" "}
         <svg
@@ -33,37 +33,21 @@ const Footer = () => {
         </svg>{" "}
         by{" "}
         <a
-          href="https://manuarora.in"
+          href=""
           target="__blank"
           className="text-gray-700  hover:bg-red-500 hover:text-white font-medium"
         >
-          Manu Arora.{" "}
+          holyaustin{" "}
         </a>
         Code at{" "}
         <a
-          href="https://github.com/manuarora700/react-code-editor"
+          href="https://github.com/holyaustin/MyCodeLab"
           target="__blank"
           className="text-gray-700  hover:bg-red-500 hover:text-white font-medium"
         >
           GitHub.{" "}
         </a>
-        Blog on{" "}
-        <a
-          href="https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/"
-          target="__blank"
-          className="text-gray-700  hover:bg-red-500 hover:text-white font-medium"
-        >
-          FreeCodeCamp
-        </a>
-        . Visit{" "}
-        <a
-          href="https://algochurn.com"
-          target="__blank"
-          className="text-gray-700  hover:bg-red-500 hover:text-white font-medium"
-        >
-          Algochurn{" "}
-        </a>
-        to ace your next frontend interview.
+       
       </span>
     </div>
   );

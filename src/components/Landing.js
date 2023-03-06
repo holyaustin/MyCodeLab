@@ -90,7 +90,6 @@ const Landing = () => {
     };
     const options = {
       method: "POST",
-      //url: 'https://judge0-ce.p.rapidapi.com/submissions',
       url: process.env.REACT_APP_RAPID_API_URL,
       params: { base64_encoded: "true", fields: "*" },
       headers: {
@@ -214,9 +213,9 @@ const Landing = () => {
         draggable
         pauseOnHover
       />
-
+      {/**
       <a
-        href="https://github.com/manuarora700/react-code-editor"
+        href=""
         title="Fork me on GitHub"
         class="github-corner"
         target="_blank"
@@ -243,8 +242,11 @@ const Landing = () => {
           ></path>
         </svg>
       </a>
-
+  */}
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
+      <div className="w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl font-black text-center p-5 mb-4">
+      Student Programming Lab
+      </div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
           <LanguagesDropdown onSelectChange={onSelectChange} />
