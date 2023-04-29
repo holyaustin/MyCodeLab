@@ -245,7 +245,7 @@ const Landing = () => {
   */}
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
       <div className="w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl font-black text-center p-5 mb-4">
-      Student Programming Lab
+      PolyLAB (Student Programming Compilers)
       </div>
       <div className="flex flex-row">
         <div className="px-4 py-2">

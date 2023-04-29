@@ -6,7 +6,7 @@ export const customStyles = {
     minWidth: "12rem",
     borderRadius: "5px",
     color: "#000",
-    fontSize: "0.8rem",
+    fontSize: "1.8rem",
     lineHeight: "1.75rem",
     backgroundColor: "#FFFFFF",
     cursor: "pointer",
@@ -21,7 +21,7 @@ export const customStyles = {
     return {
       ...styles,
       color: "#000",
-      fontSize: "0.8rem",
+      fontSize: "1.8rem",
       lineHeight: "1.75rem",
       width: "100%",
       background: "#fff",
@@ -47,7 +47,7 @@ export const customStyles = {
     return {
       ...defaultStyles,
       color: "#000",
-      fontSize: "0.8rem",
+      fontSize: "1.8rem",
       lineHeight: "1.75rem",
     };
   },
